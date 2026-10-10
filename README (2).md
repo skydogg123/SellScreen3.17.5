@@ -1,4 +1,4 @@
-# MACD Sell Screener
+# MACD 3.17.5 Sell Screener
 
 Checks a list of tickers each day for a **MACD bearish crossover** (MACD line
 crosses below its signal line) — the classic MACD "time to consider selling"
