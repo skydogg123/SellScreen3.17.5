@@ -1,4 +1,4 @@
-name: MACD Sell Screener
+name: MACD3.17.5 Sell Screener
 
 on:
   schedule:
