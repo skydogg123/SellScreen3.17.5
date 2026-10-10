@@ -41,9 +41,9 @@ TICKERS_FILE = os.path.join(os.path.dirname(__file__), "tickers.txt")
 RESULTS_FILE = os.path.join(os.path.dirname(__file__), "results.md")
 
 # Standard MACD settings
-FAST_PERIOD = 12
-SLOW_PERIOD = 26
-SIGNAL_PERIOD = 9
+FAST_PERIOD = 3
+SLOW_PERIOD = 17
+SIGNAL_PERIOD = 5
 
 # Alpha Vantage free tier is rate-limited (5 calls/min, 25 calls/day as of
 # 2024). This delay keeps us under the per-minute limit; if your ticker
