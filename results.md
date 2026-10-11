@@ -1,6 +1,6 @@
 # MACD Sell Screener Results
 
-_Last run: 2026-10-11 13:32 UTC_
+_Last run: 2026-10-11 13:41 UTC_
 
 ## MACD declining day-over-day
 
