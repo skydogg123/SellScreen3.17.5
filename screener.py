@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MACD Sell Signal Screener
+MACD 3.17.5 Sell Signal Screener
 --------------------------
 Reads a list of tickers from tickers.txt, pulls daily MACD values for each
 from Alpha Vantage, and checks two triggers for each ticker:
@@ -152,7 +152,7 @@ def send_email_alert(crossover_signals, declining_signals, checked, errors=None)
         subject_tickers = sorted(set(
             [s["ticker"] for s in crossover_signals] + [s["ticker"] for s in declining_signals]
         ))
-        subject = f"MACD Alert: {', '.join(subject_tickers)}"
+        subject = f"3,17,5 MACD Alert: {', '.join(subject_tickers)}"
         lines = []
 
         if crossover_signals:
