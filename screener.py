@@ -136,7 +136,7 @@ def send_email_alert(crossover_signals, declining_signals, checked, errors=None)
     errors = errors or []
 
     smtp_server = os.environ.get("SMTP_SERVER")
-    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
+    smtp_port = int(os.environ.get("SMTP_PORT") or "587")
     smtp_username = os.environ.get("SMTP_USERNAME")
     smtp_password = os.environ.get("SMTP_PASSWORD")
     email_from = os.environ.get("EMAIL_FROM", smtp_username)
