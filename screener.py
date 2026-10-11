@@ -141,10 +141,7 @@ def send_email_alert(crossover_signals, declining_signals, checked, errors=None)
     smtp_password = os.environ.get("SMTP_PASSWORD")
     email_from = os.environ.get("EMAIL_FROM", smtp_username)
     email_to = os.environ.get("EMAIL_TO", smtp_username)
-
-  for name in ["SMTP_SERVER", "SMTP_PORT", "SMTP_USERNAME", "SMTP_PASSWORD", "EMAIL_FROM", "EMAIL_TO"]:
-    print(name, "set" if os.environ.get(name) else "MISSING")
-    
+     
     if not all([smtp_server, smtp_username, smtp_password, email_to]):
         print("SMTP secrets not fully configured; skipping email.", file=sys.stderr)
         return
