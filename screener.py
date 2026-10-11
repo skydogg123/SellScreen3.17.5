@@ -186,7 +186,9 @@ def send_email_alert(crossover_signals, declining_signals, checked, errors=None)
     msg["To"] = email_to
 
     with smtplib.SMTP(smtp_server, smtp_port) as server:
-        server.starttls()
+       server.starttls()
+        smtp_username = smtp_username.replace("\xa0", " ").strip()
+        smtp_password = smtp_password.replace("\xa0", "").replace(" ", "").strip()
         server.login(smtp_username, smtp_password)
         server.sendmail(email_from, [email_to], msg.as_string())
     print(f"Email alert sent to {email_to}")
