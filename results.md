@@ -1,23 +1,29 @@
 # MACD Sell Screener Results
 
-_Last run: 2026-10-23 23:59 UTC_
+_Last run: 2026-10-26 12:43 UTC_
+
+## Bearish crossovers (MACD crossed below signal line)
+
+- **STX** on 2026-10-23 (MACD -81.2843 / Signal -80.6405)
 
 ## MACD declining day-over-day
 
 - **AXTI** on 2026-10-23 (MACD -8.8722 vs -8.7932 yesterday)
-- **HTZ** on 2026-10-23 (MACD 0.1234 vs 0.1539 yesterday)
+- **WDC** on 2026-10-23 (MACD -28.6486 vs -24.6083 yesterday)
+- **STX** on 2026-10-23 (MACD -81.2843 vs -77.1085 yesterday)
 - **BOOT** on 2026-10-23 (MACD -3.3887 vs -2.4554 yesterday)
 - **BLNK** on 2026-10-23 (MACD -0.0601 vs -0.0554 yesterday)
 - **DIS** on 2026-10-23 (MACD 3.1104 vs 3.3645 yesterday)
 - **SOUN** on 2026-10-23 (MACD -0.5220 vs -0.5219 yesterday)
+- **SMCI** on 2026-10-23 (MACD -3.1433 vs -3.0953 yesterday)
 
 ## All tickers checked
 
 | Ticker | Date | MACD | Signal | Prev MACD | Crossover | Declining |
 |---|---|---|---|---|---|---|
 | AXTI | 2026-10-23 | -8.8722 | -8.6145 | -8.7932 |  | YES |
-| OPEN | 2026-10-23 | -0.1795 | -0.1879 | -0.1854 |  |  |
-| HTZ | 2026-10-23 | 0.1234 | 0.0822 | 0.1539 |  | YES |
+| WDC | 2026-10-23 | -28.6486 | -29.7463 | -24.6083 |  | YES |
+| STX | 2026-10-23 | -81.2843 | -80.6405 | -77.1085 | YES | YES |
 | BOOT | 2026-10-23 | -3.3887 | -3.4012 | -2.4554 |  | YES |
 | BBAI | 2026-10-23 | -0.1850 | -0.2074 | -0.2012 |  |  |
 | BLNK | 2026-10-23 | -0.0601 | -0.0552 | -0.0554 |  | YES |
@@ -33,3 +39,5 @@ _Last run: 2026-10-23 23:59 UTC_
 | SMR | 2026-10-23 | -0.9971 | -1.0628 | -1.0715 |  |  |
 | SOUN | 2026-10-23 | -0.5220 | -0.5385 | -0.5219 |  | YES |
 | XE | 2026-10-23 | -1.5650 | -1.7668 | -1.7016 |  |  |
+| DDD | 2026-10-23 | -0.1189 | -0.1811 | -0.1452 |  |  |
+| SMCI | 2026-10-23 | -3.1433 | -3.4205 | -3.0953 |  | YES |
